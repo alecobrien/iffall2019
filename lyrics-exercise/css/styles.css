@@ -1,0 +1,30 @@
+header {text-align: center;
+		font-size: xx-large;
+		font-family: futura, sans-serif;
+		padding-left: 50px;
+		color: maroon;}
+
+h2 {text-align: center;
+	padding-left: 50px;
+	font-family: gill-sans, sans-serif;
+	color: navy;}
+
+p {
+	margin: 5px 0;}
+
+div {margin: 25px 0}
+
+section {
+	text-align: center;
+	margin: 50px 0;
+	padding-left: 50px;
+	font-family: futura, sans-serif;
+	color: maroon;}
+
+footer {text-align: center;
+		padding-left: 50px;
+		font-family: futura, sans-serif;
+		color: navy;
+		font-size: small;}
+
+html {background-color: lavender;}
