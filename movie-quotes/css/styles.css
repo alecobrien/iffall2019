@@ -1,0 +1,17 @@
+header {
+	font-size: xx-large;
+	color: blue;}
+body {color:blue;}
+	h1 {
+	}
+	h2 {font-size: x-large;
+		font-weight: bold;
+		color: red;
+		background-color: pink;
+	}
+	section {
+		margin: 50px 0;
+	}
+	p { margin: 5px 0; }
+
+	strong {color:red;}
