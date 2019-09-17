@@ -1,0 +1,35 @@
+header {text-align: center;
+		font-size: xx-large;
+		font-family: "Roboto", sans-serif;
+		color: maroon;}
+
+h2 {color: navy;
+	padding-bottom: 25px}
+
+p {margin: 5px 0;}
+
+div {margin: 25px 0}
+
+body {text-align: center;
+font-family: "Roboto", sans-serif;}
+
+.verse {font-weight: 300;
+		color: maroon;
+		font-size: 16px;}
+
+.chorus {font-weight: 700;
+		font-size: 20px;
+		color: #7851a9;}
+
+.breaks {font-weight: 500;
+		font-size: 12px;
+		color: navy;
+		margin: 25px 0;}
+
+footer {text-align: center;
+		padding-top: 50px;
+		font-family: "Roboto", sans-serif;
+		color: navy;
+		font-size: small;}
+
+html {background-color: lavender;}
