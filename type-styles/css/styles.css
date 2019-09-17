@@ -1,0 +1,57 @@
+head {}
+body {font-family: "Merriweather", serif;}
+header{font-size: small;
+		text-align: center;}
+h1{font-size: xx-large;
+	color: navy;}
+
+.agh {font-size: xx-large;
+		text-align: center;
+		font-weight: bold;}
+.wig {font-size: xx-large;
+	padding-left: 50px;
+	color: navy;
+	font-weight: bold;}
+.wug {font-size: xx-small;
+	padding-left: 50px;
+	color: red;}
+
+.fontweightlight {font-weight: 300;
+padding-left: 50px;}
+.fontweightregular {padding-left: 50px;}
+.fontweightmedium {font-weight: 700;
+padding-left: 50px;}
+.fontweightbold {font-weight: 900;
+padding-left: 50px;}
+.fontstylenormal {padding-left: 50px;}
+.fontstyleitalic {font-style: italic;
+padding-left: 50px;}
+#letterspacingminusone {letter-spacing: -.1em;
+	padding-left: 50px;}
+#letterspacingnormal {padding-left: 50px;}
+#letterspacingone {letter-spacing: .1em;
+	padding-left: 50px;}
+#letterspacingthree {letter-spacing: .3em;
+	padding-left: 50px;}
+#letterspacingfive {letter-spacing: .5em;
+	padding-left: 50px;}
+#fontdeconormal {padding-left: 50px;}
+#fontdecounderline {text-decoration: underline;
+padding-left: 50px;}
+#fontdecooverline {text-decoration: overline;
+padding-left: 50px;}
+#fontcrossedout {text-decoration:line-through;
+padding-left: 50px;}
+#normal {padding-left: 50px;}
+#uppercase {text-transform: uppercase;
+padding-left: 50px;}
+#lowercase {text-transform: lowercase;
+padding-left: 50px;}
+#capital {text-transform: capitalize;
+padding-left: 50px;}
+
+html{background-color:pink}
+
+footer {font-size: small;
+padding-top: 50px;
+text-align: center;}
