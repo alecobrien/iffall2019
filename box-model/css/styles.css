@@ -22,27 +22,31 @@ font-size: 40px;
 
 header {
 background-color: rgba(255,0,0,.5);
+background-image: url('../images/Egg.jpg');
 text-align: center;
 padding: 150px 0 182px 0;
-background-image: url('../images/viceroy-butterfly_1600.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
 
 
-section.section_one {
+section.section_one 
+	{background-color: rgba(0,255,0,.5);
+		padding-bottom: 30px;
 }
 
 .section_one img {
 float: right;
 margin-left: 30px;
 margin-bottom: 30px;
+width:400px;
+height: 300px;
 }
 section > div {
 width: 960px;
 margin: auto;
-padding: 38px 0 0 0;
+padding: 42px 0 0 0;
 }
 
 section.section_one p {
@@ -52,5 +56,46 @@ font-weight: 600;
 letter-spacing: -.4px;
 }
 
+ul {list-style-type: none;
+	margin: 0;
+	padding: 0;}
+
+li {width: 50%;
+	height: 175px;
+	padding-right: 25px;
+	box-sizing: border-box;
+	display: inline-block;}
+
+li img {height: 150px;
+		width: 200px;
+		float: left;
+		margin-right: 12px;}
+
+.section_two
+		{background-color: rgba(255,0,0,.5);
+			padding-bottom: 32px;}
+
+h4 {font-size:20px;
+	line-height: 1.4;
+	margin: 0;
+	margin-bottom: 5px;}
+
+li p {margin: 0;
+	font-size: 18px;}
+
+.section_three
+		{background-color: rgba(0,0,255,.5);
+			padding-bottom:80px;}
+
+.section_three p
+		{text-align: center;
+		font-size: 25px;
+		padding: 0 130px;}
+
+.footer
+	{padding-left: 360px;
+	padding-top: 22px;
+	font-size: 18px;
+	}
 
 
