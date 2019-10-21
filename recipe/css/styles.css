@@ -1,0 +1,64 @@
+.header1 {color: #B0280D;
+	font-size: 60px;
+		padding-left: 100px;
+		padding-top: 50px;
+		padding-bottom: 30px;}
+
+.header2 {color: #F9CA0E;
+	font-size: 60px;
+		padding-left: 100px;
+		padding-top: 50px;
+		padding-bottom: 30px;}
+
+body {font-family: "Merriweather", serif;
+		font-size:30px;}
+
+.ranch {padding-top: 150px;
+	padding-bottom: 300px;
+	padding-left:100px;
+	color: white;
+	font-size: 90px;}
+
+section.section01 {background-image: url('../images/Potatoes2.jpg');
+					background-size:cover;
+					}
+
+p {padding-left: 100px;
+	width: 50%;
+	box-sizing: border-box;
+	display: inline-block;
+	color:white;}
+
+section.section02
+		{background-color: #F9CA0E;
+			padding-bottom:80px;}
+
+img {margin-left:100px;
+	margin-top:100px;
+	width: 50%;
+	box-sizing: border-box;
+	display: inline-block;
+	color:white;}
+
+section.section03
+		{background-color: #B0280D;
+			padding-bottom:80px;}
+
+a#btn_hiddenvalley {display: inline-block;
+				margin-left: 100px;
+				margin-top: 50px;
+				background-color: #F9CA0E;
+				color: #B0280D;
+				font-family: serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-decoration: none;
+				border: 4px solid;}
+
+a#btn_hiddenvalley:hover{
+				background-color:#B0280D;
+				color:white;
+				transform: scale(1.3) translate(2px);
+			}
+
+.step {margin-bottom: -50px;}
