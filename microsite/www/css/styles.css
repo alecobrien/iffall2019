@@ -1,0 +1,80 @@
+header {background-image: url('../images/tamacover3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 15%;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+	padding:0;
+	background-color: #fffdd0;
+}
+
+h1 {margin: 0;
+	font-weight: bold;
+	clear:both;
+	padding:20px;
+	background-color: #fffdd0;
+	color: #000080;
+}
+
+h2 {margin: 0;
+	padding: 20px;
+	padding-top: 40%;
+	font-size: 4rem;
+	color: #000080;}
+
+.left {
+	min-height: 100%;
+	width:50%;
+	/*height:100%;*/
+	background-color: #fffdd0; 
+	display:inline-block;
+/*	position: fixed;*/
+	float:left;
+	clear:both;
+	box-sizing: border-box;
+	padding:20px;
+	color: #000080;
+}
+
+p {
+	/*padding:20px;*/
+}
+
+img{
+	width:100%;
+}
+
+.right {
+	width:50%;
+	/*height:100vh;*/
+	background-color: #000080;; 
+	display:inline-block;
+	float:right;
+	clear:right;
+	color: #000080;
+}
+
+#one img {/*for images*/}
+
+img {margin: 20px;
+	width: 90%;}
+
+.button {font-size: large;
+		width:25%;
+	/*height:100%;*/
+	background-color: #000080; 
+	display:inline-block;
+/*	position: fixed;*/
+	clear:both;
+	box-sizing: border-box;
+	padding:20px;
+	margin-top: 0%;
+	color: #000080;
+}
+
+a:visited {
+	color: #fffdd0;
+}
