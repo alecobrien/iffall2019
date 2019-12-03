@@ -1,7 +1,7 @@
 header {background-image: url('../images/tamacover3.jpg');
 background-repeat: no-repeat;
 background-size: cover;
-margin-bottom: 15%;
+margin-bottom: 0%;
 }
 
 body {
@@ -11,7 +11,8 @@ body {
 	background-color: #fffdd0;
 }
 
-h1 {margin: 0;
+h1 {font-family: 'Playfair Display', serif;
+	margin: 0;
 	font-weight: bold;
 	clear:both;
 	padding:20px;
@@ -19,7 +20,8 @@ h1 {margin: 0;
 	color: #000080;
 }
 
-h2 {margin: 0;
+h2 {font-family: 'Playfair Display', serif;
+	margin: 0;
 	padding: 20px;
 	padding-top: 40%;
 	font-size: 4rem;
@@ -39,10 +41,6 @@ h2 {margin: 0;
 	color: #000080;
 }
 
-p {
-	/*padding:20px;*/
-}
-
 img{
 	width:100%;
 }
@@ -54,7 +52,11 @@ img{
 	display:inline-block;
 	float:right;
 	clear:right;
-	color: #000080;
+}
+
+.right p {color: #fffdd0;
+		padding-left: 20px;
+		font-weight: bold;
 }
 
 #one img {/*for images*/}
@@ -75,6 +77,41 @@ img {margin: 20px;
 	color: #000080;
 }
 
-a:visited {
-	color: #fffdd0;
+.button2 {font-size: large;
+		width:100%;
+	/*height:100%;*/
+	background-color: #000080; 
+	display:inline-block;
+/*	position: fixed;*/
+	clear:both;
+	box-sizing: border-box;
+	padding-left:20px;
+	padding-bottom:20px;
+	padding-top:40px;
+	margin-top: 0%;
+	color: #000080;
 }
+
+a {color: #fffdd0;}
+
+a:visited {
+	color:pink;
+}
+
+@media ( max-width: 550px ) {
+
+		.button{
+			font-size: small}
+
+		}
+
+@media ( max-width: 700px ) {
+
+		.left{
+			width: 100%;}
+
+		.right{
+			width: 100%;
+		}
+
+		}
